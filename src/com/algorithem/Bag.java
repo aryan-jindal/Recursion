@@ -14,7 +14,7 @@ public class Bag {
 		System.out.println(item);
 		if (item != null && item.length() > 0) {
 			items.add(item);
-			pack();
+			pack(); //Recursive call
 		}
 		
 	}
@@ -24,7 +24,7 @@ public class Bag {
 		System.out.println(item);
 		if (item != null && item.length() > 0) {
 			items.remove(item);
-			unPack();
+			unPack();  //Recursive call
 		}
 		
 	}

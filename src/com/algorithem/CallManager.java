@@ -17,7 +17,7 @@ public class CallManager {
 		if (!item.equals("x")) {
 			System.out.println(item  + " is calling");
 			caller.add(item);
-			addCaller();
+			addCaller();  //Recursive call
 		}
 		
 	}
@@ -31,7 +31,7 @@ public class CallManager {
 			System.out.println(text);
 			if (text.equals("ba ba")) {
 				caller.remove(0);
-				removeCaller();
+				removeCaller();  //Recursive call
 			}
 		}
 		
