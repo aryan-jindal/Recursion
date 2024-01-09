@@ -1,8 +1,10 @@
 package com.algorithem;
 
+import java.io.IOException;
+
 public class RecursionTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		/*
 		 * Bag bag = new Bag();
 		 * 
